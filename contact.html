@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact Envision Academy | Course Enquiries</title>
+<meta name="description" content="Contact Envision Academy to enquire about Digital Marketing, Software Development and Human Resources programs, fees, eligibility and available batches.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header id="site-header"></header>
+<main id="main">
+<section class="hero solo"><div class="wrap"><div><h1>Let's Talk About Your Learning Goals.</h1>
+<p>Have questions about a course, its syllabus or the next available batch? Share a few details and our team can help you understand your options.</p></div></div></section>
+<section class="sec alt"><div class="wrap two"><div><h2>Request Course Information</h2>
+<p>Complete the form so we can understand your enquiry and provide relevant information.</p>
+<form id="enquiry" novalidate>
+<label>Full Name<input name="name" autocomplete="name" required></label>
+<label>Email Address<input name="email" type="email" autocomplete="email" required></label>
+<label>Mobile Number<input name="mobile" type="tel" autocomplete="tel" required></label>
+<label>Course of Interest<select name="course" required><option value="">Select a course</option><option>Digital Marketing</option><option>Software Development</option><option>Human Resources</option><option>Other / Not Sure Yet</option></select></label>
+<label>Current Status<select name="status" required><option value="">Select your status</option><option>Student</option><option>Graduate</option><option>Working Professional</option><option>Career Changer</option><option>Other</option></select></label>
+<!-- TODO: list only the learning modes the academy actually offers -->
+<label>Preferred Learning Mode<select name="mode"><option value="">No preference</option></select></label>
+<label>Your Question or Message (optional)<textarea name="message" rows="4"></textarea></label>
+<label class="chk"><input type="checkbox" name="consent"><span>I agree that Envision Academy may contact me regarding my enquiry. I have read the <a href="privacy.html">Privacy Policy</a>.</span></label>
+<p class="err" id="form-status" role="alert"></p>
+<button class="btn" type="submit">Request Course Details</button>
+<p class="note">Your information will be used to respond to your enquiry and handled according to the Privacy Policy.</p></form></div>
+<div><h2>Other Ways to Connect</h2>
+<!-- TODO: insert verified contact details -->
+<p><strong>Phone:</strong> [Insert verified official contact number]</p><p><strong>Email:</strong> [Insert verified official email address]</p>
+<p><strong>Location:</strong> Mumbai, Maharashtra</p><p><strong>Office hours:</strong> [Insert verified operating hours]</p><p><strong>WhatsApp:</strong> [Insert official WhatsApp link, if available]</p>
+<h3>Not sure which course is right?</h3><p>Choose “Other / Not Sure Yet” and tell us what you want to learn. We will share the relevant program information.</p></div></div></section>
+</main>
+<footer id="site-footer"></footer>
+<script src="script.js"></script>
+</body>
+</html>
